@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #fcfcfc;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,5 +21,24 @@
 *::before,
 *::after {
   box-sizing: inherit;
+}
+.ant-table-body {
+  scrollbar-width: auto;
+  scrollbar-color: auto;
+}
+
+::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(140, 142, 143, 0.5);
+  border-radius: 1rem;
+  border: transparent;
 }
 
