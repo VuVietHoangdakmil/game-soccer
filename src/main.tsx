@@ -5,10 +5,9 @@ import App from "./App.tsx";
 import { ProviderStateApp } from "./components/providers/state-app/index.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  // <StrictMode>
-  <ProviderStateApp>
-    <App />
-  </ProviderStateApp>
-
-  // </StrictMode>
+  <StrictMode>
+    <ProviderStateApp>
+      <App />
+    </ProviderStateApp>
+  </StrictMode>
 );
