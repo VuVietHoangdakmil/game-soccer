@@ -63,7 +63,7 @@ const columns: TableProps<DataType>["columns"] = [
     key: "score",
   },
   {
-    title: "Trạng thái chyền",
+    title: "Trạng thái chuyền",
     key: "result",
     dataIndex: "result",
     render: (result) => {
